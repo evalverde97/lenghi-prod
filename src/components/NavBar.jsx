@@ -17,7 +17,7 @@ const Navbar = () => {
           <li>Ayuda</li>
         </ul>
         <a download>
-        <button className="yellow-button">Descargar</button>
+        <button  onClick={() => alert('UFFF casi ')} className="yellow-button">Descargar</button>
       </a>
       </div>
     </nav>
