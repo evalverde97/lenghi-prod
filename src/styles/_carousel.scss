@@ -1,0 +1,45 @@
+.carousel {
+  background-color: #111;
+  padding: 2rem;
+
+  h2 {
+    color: white;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .carousel-container {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+
+    .card {
+      background: #222;
+      border-radius: 10px;
+      flex: 0 0 auto;
+      width: 200px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+
+      img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+      }
+
+      p {
+        padding: 0.5rem;
+      }
+    }
+  }
+
+  .carousel-container::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .carousel-container::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+  }
+}

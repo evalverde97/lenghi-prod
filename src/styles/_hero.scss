@@ -1,0 +1,38 @@
+.hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  
+    .overlay {
+      position: absolute;
+      bottom: 10%;
+      left: 5%;
+      color: white;
+      width: max-content;
+  
+      .characters {
+        width: 400px;
+        max-width: 90%;
+      }
+  
+      h1 {
+        font-size: 48px;
+        margin: 20px 0 10px;
+      }
+  
+      .release-date {
+        font-size: 24px;
+      }
+  
+      .learn-more {
+        margin-top: 20px;
+        background-color: white;
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+  

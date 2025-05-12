@@ -1,0 +1,43 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+  
+    .navbar-left img {
+      height: 50px;
+    }
+  
+    .navbar-right {
+      display: flex;
+      align-items: center;
+  
+      ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+  
+        li {
+          margin: 0 10px;
+          cursor: pointer;
+        }
+      }
+  
+      .yellow-button {
+        background-color: #fcb800;
+        border: none;
+        padding: 8px 12px;
+        margin-left: 15px;
+        cursor: pointer;
+      }
+    }
+  }
+  
