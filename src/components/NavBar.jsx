@@ -17,7 +17,14 @@ const Navbar = () => {
           <li>Ayuda</li>
         </ul>
         <a download>
-        <button  onClick={() => alert('UFFF casi ')} className="yellow-button">Descargar</button>
+      <a
+        href="https://drive.google.com/drive/folders/1yTbHCUXnrtk4o87AmLXeDXRVGBmpWINc"
+        target="_blank"
+        rel="noopener noreferrer"
+        download
+      >
+        <button className="yellow-button">DESCARGAR</button>
+      </a>
       </a>
       </div>
     </nav>

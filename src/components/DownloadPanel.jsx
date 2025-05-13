@@ -6,8 +6,13 @@ const DownloadPanel = () => {
     <div className="download-panel">
       <img src={miniatura} style={{ width: 200}} />
       <h2>Descarga la última versión</h2>
-      <a download>
-        <button onClick={() => alert('Avise al programador que se ponga las pilas...')}>DESCARGAR</button>
+      <a
+        href="https://drive.google.com/drive/folders/1yTbHCUXnrtk4o87AmLXeDXRVGBmpWINc"
+        target="_blank"
+        rel="noopener noreferrer"
+        download
+      >
+        <button className="yellow-button">DESCARGAR</button>
       </a>
     </div>
   );
